@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+  }
+  
+  .top-bar {
+    height: 50px;
+    background: violet;
+
+        position: sticky;
+        top: 0;
+        z-index: 10; /* Makes sure it stays above other content */
+
+      
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background: green;
+    padding: 40px 10px 25px 10px;
+
+    margin: 20px auto;
+    width: 95%;
+    height: 50%;
+  }
+
+  .footer-bar {
+    height: 50px;
+    background-color: #d3d3e2; /* Light grayish-purple, similar to screenshot */
+    width: 100%;
+  }
+  
+  
+  .box {
+    width: 500px;
+    height: 350px;
+  }
+  .red-box {
+    background: pink;
+  }
+  
+  .blue-box {
+    background: cornflowerblue;
+  }
+  
+  .welcome {
+    background: #111;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    width: fit-content;
+    margin: 40px auto;
+  }
+  
+  .fixed-logo {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+  }
+  
